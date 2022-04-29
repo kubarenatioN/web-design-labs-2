@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+.daytime-image {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.me-image {
+    width: 400px;
+}

@@ -1,0 +1,41 @@
+include ../mixins/perf-item.pug
+-
+    const perf = [
+        {
+            date: '4 Июня, 19:00',
+            place: 'Государственный Кремлевский Дворец',
+            group: 'Продолжающие юниоры',
+        },
+        {
+            date: '27 Июня, 17:0',
+            place: 'Театр Новая Опера',
+            group: 'Концертный состав',
+        },
+        {
+            date: '11 Июля, 18:00',
+            place: 'Крокус Сити Холл',
+            group: 'Продолжающие ювеналы',
+        },
+        {
+            date: '30 Августа, 16:00',
+            place: 'КЗ "Измайлово"',
+            group: 'Начинающие юниоры',
+        },
+    ]
+section.performances
+    .container 
+        .performances__wrapper 
+            .section-title.performances-section--title Выступления
+                span.section-fade.performances__section-fade.wow.animate__animated.animate__fadeInSectionFade(data-wow-delay="1s") Выступления
+            .section-subtitle__wrapper
+                .section-subtitle Выступления учащихся нашей школы — это шанс лицезреть исключительный талант и являются обязательными к просмотру всем фанатам балета.
+            .performances__content.wow.animate__animated.animate__fadeInUp(data-wow-offset="300")
+                .performances__image 
+                    img.performances__image-img(src=`${root}/images/performances-img.jpg`, alt="")
+                .performances__schedule 
+                    .performances__date Дата и время
+                    .performances__location Место    
+                    .performances__group Класс 
+                    each val, key in perf
+                        +perf-item(val)
+                    

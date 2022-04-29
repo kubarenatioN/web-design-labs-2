@@ -1,0 +1,14 @@
+mixin slider-item(item)
+    .classes__slider-item.wow.animate__animated.animate__fadeIn(data-wow-offset="500")
+        .classes__slider-inner 
+            .classes__item-container 
+                .classes__item-front(style=`background-image: url(${root}/images/${item.img});`)
+                .classes__item-back
+                    .classes__item-description
+                        span.classes__item-highlight #{item.textHightlight}
+                        |  #{item.text}
+                    .classes__item-pricing
+                        span.classes__item-price #{item.price}
+                        | руб./месяц
+                    a.classes__content-btn.btn Записаться на урок
+            .classes__item-title #{item.type}

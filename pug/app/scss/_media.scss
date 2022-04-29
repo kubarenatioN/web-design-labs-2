@@ -1,0 +1,884 @@
+@media(max-width: 1366px){
+
+  // HEADER
+
+  .header__content{
+    padding-top: 35vh;
+  }
+  .main-header__content-title{
+    font-size: 160px;
+    padding-left: 30px;
+  }
+  .main-header__content-subtitle{
+    font-size: 30px;
+    padding: 40px 0 0 40px;
+    letter-spacing: 40px;
+  }
+
+  .classes-header__content-title{
+    font-size: 120px;
+  }
+
+  .teachers-header__content-title,
+  .history-header__content-title{
+    font-size: 180px;
+    line-height: 1;
+  }
+
+  // ABOUT
+
+  .about__wrapper:nth-child(1){
+    align-items: center;
+  }
+  .about__image-wrapper{
+    max-width: 45%;
+  }
+
+  // MAIN-CLASSES
+
+  .classes-section--title{
+    font-size: 160px;
+    line-height: 1;
+  }
+  .classes-section--title::after{
+    left: 12vw;
+    top: 25%;
+  }
+  .about__section-fade{
+    font-size: 220px;
+  }
+  .classes__slider-item{
+    max-width: 330px;
+  }
+  .classes__item-front{
+    min-height: 450px;
+  }
+  .classes__slider-inner{
+    min-height: 520px;
+  }
+  .classes__slider{
+    padding-left: 2vw;
+  }
+
+  .performances__image{
+    display: none;
+  }
+  .performances__schedule{
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  .education-img,
+  .areas-img,
+  .intro-img{
+    max-width: 45vw;
+  }
+}
+@media(max-width: 1200px){
+  .teachers__descr-wrapper{
+    padding-left: 80px;
+  }
+  .teachers__descr-name{
+    font-size: 56px;
+  }
+  .teachers__descr-position{
+    margin: 20px 0 10px;
+  }
+  .teachers__teacher-wrapper,
+  .teachers__teacher-fake,
+  .teachers__teacher-image{
+    max-width: 30vw;
+  }
+  .teachers__teacher-fake,
+  .teachers__teacher-image{
+    min-height: 40vw;
+  }
+  .section-subtitle__wrapper{
+    margin-top: 40px;
+  }
+  .performances-section--title{
+    font-size: 140px;
+    line-height: 1;
+  }
+  .performances-section--title::after{
+    left: 10%;
+    top: 15px;
+  }
+  .performances__section-fade{
+    font-size: 220px;
+    left: 10px;
+  }
+  .main-teachers__teacher{
+    max-width: 30vw;
+    height: 40vw;
+  }
+  .classes-section--title{
+    font-size: 130px;
+  }
+  .about__section-fade{
+    font-size: 180px;
+  }
+  .classes__slider-inner{
+    max-width: 28vw;
+  }
+  .main-header__content-title{
+    font-size: 140px;
+    letter-spacing: 20px;
+    padding-left: 20px;
+  }
+  .main-header__content-subtitle{
+    font-size: 30px;
+    padding: 30px 0 0 30px;
+    letter-spacing: 30px;
+  }
+  .history__period:nth-child(even),
+  .history__period{
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 150px 0 200px;
+  }
+  .period__image{
+    max-width: 40vw;
+  }
+  .period__content{
+    padding: 40px 0px 20px;
+    max-width: 60vw;
+    margin: 0 auto;
+    background-color: #000;
+    position: relative;
+    z-index: 3;
+  }
+  .period__image-wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+  }
+  .history__inner{
+    padding-bottom: 0;
+  }
+}
+@media(max-width: 1000px){
+  .teachers__name-inner{
+    font-size: 20px;
+    line-height: 1.1;
+    padding: 10px;
+  }
+  .teachers__descr-wrapper{
+    padding-left: 60px;
+    justify-content: flex-start;
+  }
+  .teachers__descr-name{
+    font-size: 48px;
+  }
+  .teachers__descr-position{
+    margin: 15px 0 10px;
+  }
+  .teachers__descr-text{
+    font-size: 12px;
+    height: 150px;
+  }
+  .teachers__descr-text::-webkit-scrollbar {
+    width: 4px;
+  }
+  .teachers-header__content-title,
+  .history-header__content-title{
+    font-size: 140px;
+  }
+  .trial{
+    margin: 50px 0 0;
+  }
+  .descr__education{
+    flex-direction: column;
+  }
+  .descr-section{
+    padding: 50px 0;
+  }
+  .descr__areas{
+    flex-direction: column-reverse;
+  }
+  .descr-section-title{
+    font-size: 50px;
+  }
+  .education__content,
+  .areas__content{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .intro__content{
+    flex-direction: column-reverse;
+  }
+  .classes-header__content-title{
+    font-size: 80px;
+  }
+  .education-img,
+  .areas-img,
+  .intro-img{
+    max-width: 100%;
+  }
+  .intro__content-image{
+    align-self: center;
+  }
+  .intro__content-text{
+    max-width: 100%;
+  }
+  .footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__image{
+    display: none;
+  }
+  .performances-section--title{
+    font-size: 100px;
+  }
+  .performances__section-fade{
+    font-size: 160px;
+  }
+  .classes__item-title{
+    padding: 10px;
+  }
+  .classes__slider-refresh{
+    display: none;
+  }
+  .classes__content-btn{
+    margin-bottom: 0;
+  }
+  .classes__slider-inner{
+    flex-direction: column-reverse;
+  }
+  .classes__slider-inner{
+    max-width: 100%;
+  }
+  .classes__item-container{
+    display: flex;
+    border:none;  
+    cursor: default;
+  }
+  .classes__item-front{
+    background-position: center;
+    max-width: 40%;
+    width: 100%;
+  }
+  .classes__item-back{
+    position: static;
+    transform: rotateY(0deg);
+    flex-shrink: 2;
+  }
+  .classes__item-description{
+    padding: 50px 20px 20px;
+  }
+  .classes-section--title{
+    font-size: 100px;
+  }
+  .classes__section-fade{
+    font-size: 140px;
+  }
+  .main-classes__inner{
+    margin: 80px 0 100px;
+  }
+  .classes__slider{
+    padding-left: 0;
+    padding-bottom: 100px;
+  }
+  .classes__slider-item{
+    max-width: unset;
+  }
+  .classes__section-fade{
+    top: 0;
+    left: 50px;
+  }
+  .main-header__content-title{
+    font-size: 120px;
+    letter-spacing: 10px;
+    padding-left: 0px;
+  }
+  .main-header__content-subtitle{
+    font-size: 30px;
+    padding: 30px 0 0 20px;
+    letter-spacing: 20px;
+  }
+  .about__content{
+    max-width: 80%;
+  }
+  .about__image-wrapper{
+    max-width: 60%;
+  }
+  .about__wrapper:nth-child(1){
+    flex-direction: column-reverse;
+  }
+  .about__image-wrapper{
+    margin-top: 50px;
+  }
+  .about__wrapper:nth-child(2),
+  .about__wrapper{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .about__content-contacts{
+    justify-content: space-evenly;
+  }
+  .main-teachers__name{
+    font-size: 17px;
+    line-height: 1.15;
+    min-height: 100px;
+    padding: 10px;
+  }
+  .main-teachers__btn-container{
+    padding: 50px 0 80px;
+  }
+}
+@media(max-width: 880px){
+  .teachers__descr-name{
+    font-size: 32px;
+  }
+  .teachers__descr-position{
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .teachers__descr-position::before{
+    display: none;
+  }
+  .teachers__descr-arrow{
+    display: none;
+  }
+  .teachers__descr-buttons{
+    justify-content: space-between;
+  }
+  .teachers__descr-btn{
+    padding: 18px 30px 15px;
+  }
+  .teachers__descr-other{
+    padding: 18px 5px 15px;
+    margin: 0;
+  }
+  .teachers__wrapper{
+    justify-content: space-evenly;
+  }
+  .teachers__teacher-fake,
+  .teachers__teacher-image{
+    min-height: 50vw;
+  }
+  .teachers__teacher-wrapper,
+  .teachers__teacher-fake,
+  .teachers__teacher-image{
+    max-width: 40vw;
+  }
+}
+@media(max-width: 800px){
+  .teachers__descr-buttons{
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .teachers__descr-btn{
+    width: 100%;
+    text-align: center;
+  }
+  .teachers-header__content-title,
+  .history-header__content-title{
+    font-size: 100px;
+  }
+  .audition__inner-form{
+    padding: 0 10px;
+  }
+  .descr__intro{
+    padding-top: 0;
+  }
+  .footer__name-link{
+    letter-spacing: 10px;
+    padding-left: 10px;
+  }
+  .footer__copy{
+    flex-direction: column;
+  }
+  .footer__copy-developed{
+    margin: 10px 0;
+    order: -1;
+  }
+  .footer__copy-copy,
+  .footer__copy-developed{
+    position: static;
+  }
+  .footer__copy-name{
+    order: -1;
+  }
+  .teachers__section-fade{
+    left: 20px;
+    top: -40px;
+    font-size: 220px;
+  }
+  .main-teachers__container{
+    margin-top: 60px;
+  }
+  .teachers-section--title{
+    font-size: 140px;
+  }
+  .header__nav-link+.header__nav-link{
+    margin-left: 50px;
+  }
+  .main-header__content-title{
+    font-size: 100px;
+    letter-spacing: 10px;
+    padding-left: 0px;
+  }
+  .classes__item-front{
+    max-width: 50%;
+  }
+}
+@media(max-width: 720px){
+  .teachers__teacher-image{
+    cursor: default;
+  }
+  .teachers__teacher-wrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .teachers__descr-wrapper{
+    display: flex;
+    padding-left: 0;
+    opacity: 1;
+  }
+  .teachers__descr-text{
+    height: 200px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+  }
+  .teachers__name{
+    min-height: 150px;
+    opacity: 1;
+  }
+  .teachers__name-inner{
+    font-size: 24px;
+  }
+  .teachers__descr-other,
+  .teachers__descr-name{
+    display: none;
+  }
+  .teachers__teacher-fake,
+  .teachers__teacher-image{
+    max-width: 300px;
+  }
+  .teachers__teacher-fake, .teachers__teacher-image{
+    min-height: 400px;
+  }
+}
+@media(max-width: 680px){
+  .period__image-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .period__image{
+    max-width: 300px;
+  }
+  .period__content{
+    max-width: 100%;
+  }
+  .period__content-title{
+    text-align: center;
+  }
+  .classes-header__content-title{
+    font-size: 60px;
+  }
+  .performances-section--title{
+    font-size: 80px;
+  }
+  .performances__section-fade{
+    font-size: 120px;
+  }
+  .main-teachers{
+    padding-top: 120px;
+  }
+  .main-teachers__teacher{
+    max-width: 29vw;
+  }
+  .performances__section-fade,
+  .teachers__section-fade{
+    font-size: 160px;
+  }
+  .teachers-section--title{
+    font-size: 100px;
+  }
+  .classes-section--title{
+    font-size: 80px;
+  }
+  .classes__section-fade{
+    font-size: 120px;
+  }
+  .classes__item-description{
+    font-size: 12px;
+  }
+  .header__nav-link+.header__nav-link{
+    margin-left: 30px;
+  }
+  .main-header__content-title{
+    letter-spacing: 0px;
+  }
+  .main-header__content-subtitle{
+    font-size: 30px;
+    padding: 30px 0 0 10px;
+    letter-spacing: 10px;
+  }
+  .about__content,
+  .about__image-wrapper{
+    max-width: 100%;
+  }
+
+}
+@media(max-width: 600px){
+  .performances-section--title{
+    font-size: 50px;
+  }
+  .performances__section-fade{
+    font-size: 120px;
+  }
+  .main-teachers__name-wrapper{
+    min-height: 100px;
+    opacity: 1;
+  }
+  .teachers-header__content-title,
+  .history-header__content-title{
+    font-size: 76px;
+  }
+  .audition__inner-title{
+    text-align: center;
+    line-height: 1.2;
+  }
+  .audition__inner-form{
+    margin-top: 30px;
+  }
+  .audition__inner{
+    padding: 50px 0;
+    margin-bottom: 150px;
+  }
+  .audition-form__btn,
+  .audition-form__name,
+  .audition-form__phone{
+    max-width: 100%;
+    margin: 10px 0;
+    height: 55px;
+  }
+  .audition-form__inner{
+    flex-direction: column;
+  }
+  .areas__content-list{
+    padding: 40px 0 20px;
+  }
+  .descr-paragraph{
+    font-size: 12px;
+  }
+  .descr-section-title{
+    font-size: 36px;
+  }
+  .performances{
+    padding: 100px 0;
+  }
+  .performances__image-img{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .performances__content{
+    flex-direction: column;
+  }
+  .performances__image{
+    display: block;
+  }
+  .performances__schedule{
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+  }
+  .performances__location,
+  .performances__date,
+  .performances__group{
+    padding: 15px 5px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  .performances__date{
+    margin-top: 50px;
+    border-top: 1px solid #000;
+  }
+  .main-teachers__btn{
+    width: 100%;
+    text-align: center;
+  }
+  .trial__btn{
+    transform: unset;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+  }
+  .classes-section--title{
+    font-size: 60px;
+  }
+  .classes__section-fade{
+    font-size: 100px;
+  }
+  .classes__slider-prev{
+    transform: translateX(-90px);
+  }
+  .classes__slider-next{
+    transform: translateX(90px);
+  }
+  .classes__slider-refresh{
+    transform: translate(-20px, 10px) rotate(0deg);
+  }
+  .classes__item-description{
+    font-size: 14px;
+  }
+  .classes__item-title{
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .classes__slider-refresh{
+    display: block;
+  }
+  .classes__content-btn{
+    margin-bottom: 20px;
+  }
+  .classes__slider-inner{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .classes__item-container{
+    display: block;
+    border: 1px solid #ccc;  
+    cursor: pointer;
+  }
+  .classes__item-front{
+    background-position: center;
+    max-width: unset;
+    width: unset;
+  }
+  .classes__item-back{
+    position: absolute;
+    transform: rotateY(180deg);
+    flex-shrink: 0;
+  }
+  .video__wrapper{
+    margin: 100px 0;
+  }
+  .header__nav-menu{
+    display: block;
+  }
+  .header__nav{
+    display: none;
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -30px;
+    background-color: rgba(#000, .9);
+  }
+  .header__nav-link:first-child{
+    margin-top: 80px;
+  }
+  .header__nav.is-active{
+    display: flex;
+    flex-direction: column;
+  }
+  .header__nav-link+.header__nav-link{
+    margin-left: 0px;
+  }
+  .header__nav-link{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: none;
+  }
+  .main-header__content-title{
+    font-size: 80px;
+  }
+  .main-header__content-subtitle{
+    font-size: 28px;
+    padding: 20px 0 0 5px;
+    letter-spacing: 5px;
+  }
+  .about-section--title{
+    font-size: 160px;
+    margin-bottom: 30px;
+  }
+  .about__section-fade{
+    left: -20px;
+    font-size: 220px;
+  }
+  .about__content-contacts{
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .about__content-phone{
+    margin: 30px 0;
+  }
+}
+@media(max-width: 480px){
+  .header__menu{
+    top: 20px;
+  }
+  .period__content-paragraph{
+    font-size: 12px;
+  }
+  .history__period-digits-fake,
+  .history__period-digits{
+    font-size: 160px;
+  }
+  .teachers-header__content-title,
+  .history-header__content-title{
+    font-size: 60px;
+    letter-spacing: 0;
+  }
+  .main-classes__inner{
+    margin-bottom: 40px;
+  }
+  .areas-area{
+    max-width: 100%;
+  }
+  .descr-education-title,
+  .descr-areas-title{
+    font-size: 30px;
+  }
+  .classes-header__content-title{
+    font-size: 40px;
+  }
+  .footer__form-inner{
+    flex-direction: column;
+    width: 300px;
+  }
+  .footer__form-input{
+    max-width: 100%;
+    height: 50px;
+  }
+  .teachers-section--title{
+    font-size: 80px;
+  }
+  .teachers__section-fade{
+    font-size: 120px;
+    left: 10px;
+    top: -20px;
+  }
+  .teachers-section--title::after{
+    top: 25px;
+  }
+  .performances-section--title,
+  .classes-section--title,
+  .teachers-section--title{
+    margin-left: 0;
+  }
+  .main-teachers__container{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .main-teachers__teacher{
+    max-width: 300px;
+    height: 400px;
+    margin: 30px auto;
+  }
+  .main-teachers__name{
+    font-size: 20px;
+  }
+  .trial__title{
+    min-height: 260px;
+    padding-top: 50px;
+    font-size: 17px;
+  }
+  .trial__btn{
+    top: 130px;
+  }
+  .classes__slider-inner{
+    height: 420px;
+    min-height: unset;
+  }
+  .classes__item-front{
+    height: 360px;
+    min-height: unset;
+  }
+  .classes__slider{
+    padding-bottom: 60px;
+  }
+  .classes-section--title{
+    font-size: 46px;
+  }
+  .classes__section-fade{
+    font-size: 80px;
+    left: 7vw;
+  }
+  .about-section--title::after{
+    left: 17vw;
+  }
+  .about-section--title{
+    font-size: 100px;
+  }
+  .about__section-fade{
+    font-size: 160px;
+  }
+  .container{
+    padding: 0 10px;
+  }
+  .main-header__content-title{
+    font-size: 60px;
+  }
+  .main-header__content-subtitle{
+    font-size: 20px;
+    padding: 30px 0 0 5px;
+    letter-spacing: 5px;
+  }
+}
+@media(max-width: 375px){
+  .performances-section--title{
+    font-size: 46px;
+  }
+  .performances__section-fade{
+    font-size: 80px;
+    top: -30px;
+  }
+  .intro__content{
+    margin-top: 30px;
+  }
+  .descr-section-title{
+    font-size: 30px;
+  }
+  .teachers-section--title{
+    font-size: 70px;
+  }
+  .teachers__section-fade{
+    font-size: 100px;
+  }
+  .classes__content-btn{
+    padding: 18px 35px 15px;
+  }
+  .classes__item-description{
+    font-size: 12px;
+    padding: 20px 10px;
+  }
+  .main-classes__inner{
+    margin-top: 50px;
+  }
+  .classes__slider-inner{
+    max-width: 260px;
+  }
+  .main-header__content-title{
+    font-size: 55px;
+  }
+  .about__content-text{
+    font-size: 12px;
+  }
+  .about__wrapper:nth-child(2),
+  .about__wrapper{
+    padding-top: 50px;
+  }
+}
+
+
+  // MIN
+@media(min-width: 601px){
+  .header__nav{
+    display: flex !important;
+  }
+}

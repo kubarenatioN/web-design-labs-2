@@ -1,0 +1,14 @@
+- let root = '/app'
+- let title = 'Main'
+- let pageNumber = 0 
+include includes/_header.pug
+include includes/_about.pug
+include includes/_video.pug
+include includes/_main-classes.pug
+include includes/_trial.pug
+include includes/_performers.pug
+include includes/_footer.pug
+
+script(src=`https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js`) 
+script(src=`/node_modules/wowjs/dist/wow.js`) 
+script(src=`${root}/js/main.js`) 

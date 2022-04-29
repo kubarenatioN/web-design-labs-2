@@ -1,0 +1,51 @@
+- 
+    menu = [
+        {
+            text: 'Главная',
+            link: 'index.html',
+        },
+        {
+            text: 'Учители',
+            link: 'teachers.html',
+        },
+        {
+            text: 'Направления',
+            link: 'classes.html',
+        },
+        {
+            text: 'История',
+            link: 'history.html',
+        },
+    ];
+doctype html
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title CLASSIQUE - #{title}
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display:400,700&display=swap"
+    rel="stylesheet")
+    link(rel="stylesheet", href="/node_modules/animate.css/animate.css")
+    link(rel="stylesheet", href="/app/css/style.min.css")
+body
+    header.header
+        .header__wrapper(style=`background-image: url(${root}/images/header-main.jpg);`)
+            .container
+                .header__inner
+                    .header__menu
+                        .logo
+                            a.logo-link(href="index.html")
+                                img.logo-image(src=`${root}/images/logo.png`, alt="")
+                        nav.header__nav
+                            each val, key in menu
+                                if key === pageNumber
+                                    a.header__nav-link.active(href=val.link)= val.text
+                                else
+                                    a.header__nav-link(href=val.link)= val.text
+                        .header__nav-menu.hamburger.hamburger--slider-r
+                            .hamburger-box
+                                .hamburger-inner
+                    .header__content 
+                        .main-header__content-title.animate__animated.animate__fadeInUp classique 
+                        .main-header__content-subtitle.wow.animate__animated.animate__fadeIn(data-wow-delay="0.5s") балетная школа

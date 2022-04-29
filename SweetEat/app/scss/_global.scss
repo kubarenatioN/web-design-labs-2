@@ -1,0 +1,62 @@
+@import 'mixins';
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body{
+  font-size: 14px;
+  line-height: 1.1;
+  font-family: 'Roboto', sans-serif;
+  color: $dark;
+  user-select: none;
+  background-color: $light;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 1640px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header__icon{
+  width: 25px;
+  height: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: $dark;
+}
+
+.btn{
+  display: inline-block;
+  padding: 27px 45px 24px;
+  @include button('transparent', $main, $main);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  outline: none;
+  &:hover {
+    @include button($main, $light, $main);
+  }
+}
+
+.section-title{
+  font-family: $tfont;
+  font-size: 68px;
+}
+
+.slick-slide{
+  outline: none;
+}
